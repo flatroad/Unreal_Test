@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ownershipRPC",
+			"Path": "..\\Source\\ownershipRPC.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ownershipRPCEditor",
+			"Path": "..\\Source\\ownershipRPCEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

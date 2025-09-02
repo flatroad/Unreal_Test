@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\ragi2\\documents\\unreal projects\\experiment\\ownershiprpc\\source\\ownershiprpc\\ownershiprpcgamemode.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\ragi2\\documents\\unreal projects\\experiment\\ownershiprpc\\intermediate\\build\\win64\\x64\\ownershiprpceditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\ragi2\\documents\\unreal projects\\experiment\\ownershiprpc\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ownershiprpc\\definitions.ownershiprpc.h",
+            "c:\\users\\ragi2\\documents\\unreal projects\\experiment\\ownershiprpc\\source\\ownershiprpc\\ownershiprpcgamemode.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\users\\ragi2\\documents\\unreal projects\\experiment\\ownershiprpc\\intermediate\\build\\win64\\unrealeditor\\inc\\ownershiprpc\\uht\\ownershiprpcgamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ownershipRPC.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ownershipRPC.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ownershipRPCEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ownershipRPC">
+      <UniqueIdentifier>{4F44472F-5E78-36A1-AC59-981989E3F2E2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ownershipRPC\ownershipRPC.Build.cs">
+      <Filter>Source\ownershipRPC</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ownershipRPC\ownershipRPC.cpp">
+      <Filter>Source\ownershipRPC</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\ownershipRPC.h">
+      <Filter>Source\ownershipRPC</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\ownershipRPCCharacter.cpp">
+      <Filter>Source\ownershipRPC</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\ownershipRPCCharacter.h">
+      <Filter>Source\ownershipRPC</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\ownershipRPCGameMode.cpp">
+      <Filter>Source\ownershipRPC</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\ownershipRPCGameMode.h">
+      <Filter>Source\ownershipRPC</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\ownershipRPCPlayerController.cpp">
+      <Filter>Source\ownershipRPC</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\ownershipRPCPlayerController.h">
+      <Filter>Source\ownershipRPC</Filter>
+    </ClInclude>
+    <Filter Include="Source\ownershipRPC\Private">
+      <UniqueIdentifier>{980E0E66-62CF-3424-9EDC-B9F7B76FC513}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ownershipRPC\Private\AUsRpcBox.cpp">
+      <Filter>Source\ownershipRPC\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\ownershipRPC\Public">
+      <UniqueIdentifier>{DFB79D95-6EBC-317E-82B2-0D84C790BF69}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ownershipRPC\Public\AUsRpcBox.h">
+      <Filter>Source\ownershipRPC\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\ownershipRPC\Variant_Combat">
+      <UniqueIdentifier>{B9E1DC6A-AC7E-3C93-B901-0A7A31D95173}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\ownershipRPC\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\ownershipRPC\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\ownershipRPC\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\ownershipRPC\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\ownershipRPC\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\ownershipRPC\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\ownershipRPC\Variant_Combat\AI">
+      <UniqueIdentifier>{7AE953E7-CF6B-3C4E-9F4A-69DDF5FCCC76}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\ownershipRPC\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\ownershipRPC\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\ownershipRPC\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\ownershipRPC\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\ownershipRPC\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\ownershipRPC\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\ownershipRPC\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\ownershipRPC\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\ownershipRPC\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\ownershipRPC\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ownershipRPC\Variant_Combat\Animation">
+      <UniqueIdentifier>{5C83FD47-CAB1-3CD8-9C20-15A8213CCEB8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\ownershipRPC\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\ownershipRPC\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\ownershipRPC\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\ownershipRPC\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\ownershipRPC\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\ownershipRPC\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\ownershipRPC\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{3F6556C4-C237-3CE4-A0E9-C6AAD6A3006C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\ownershipRPC\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\ownershipRPC\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\ownershipRPC\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\ownershipRPC\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\ownershipRPC\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\ownershipRPC\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\ownershipRPC\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\ownershipRPC\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\ownershipRPC\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\ownershipRPC\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\ownershipRPC\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{1065987E-C570-3A4F-933A-D2FCE0CC523E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\ownershipRPC\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\ownershipRPC\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\ownershipRPC\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\ownershipRPC\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\ownershipRPC\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\ownershipRPC\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\ownershipRPC\Variant_Combat\UI">
+      <UniqueIdentifier>{60C4FC0A-610D-375D-A9D6-75BCA3D1C74A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\ownershipRPC\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\ownershipRPC\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ownershipRPC\Variant_Platforming">
+      <UniqueIdentifier>{389ABC48-A2F8-3DFB-A150-B5564DB23741}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\ownershipRPC\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\ownershipRPC\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\ownershipRPC\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\ownershipRPC\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\ownershipRPC\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\ownershipRPC\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\ownershipRPC\Variant_Platforming\Animation">
+      <UniqueIdentifier>{C239B3E0-AE58-3D2F-A6E1-F4CF01E9D07D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\ownershipRPC\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\ownershipRPC\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\ownershipRPC\Variant_SideScrolling">
+      <UniqueIdentifier>{BAFAB226-5B71-334C-8A15-B171C267F5E9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\ownershipRPC\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{B3BB2640-B9A7-3EF9-9C42-4DB2E40D20AD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ownershipRPC\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{F07C3D75-8BFF-3D37-B32D-4AA86191C4C1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\ownershipRPC\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{D0A3034E-DD7F-387B-BD9E-E639ACC64CF6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\ownershipRPC\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{095A3C78-84DB-31F9-807B-004C69524733}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ownershipRPC\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ownershipRPC\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\ownershipRPC\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
